@@ -1,0 +1,21 @@
+{
+	success:true,
+	teams:[
+    	{'id_equipe':'1', 'team_name':'team1'},
+    	{'id_equipe':'2', 'team_name':'team2'},
+    	{'id_equipe':'3', 'team_name':'team3'},
+    	{'id_equipe':'4', 'team_name':'team4'},
+    	{'id_equipe':'5', 'team_name':'team5'},
+    	{'id_equipe':'6', 'team_name':'team6'},
+    	{'id_equipe':'7', 'team_name':'team7'},
+    	{'id_equipe':'8', 'team_name':'team8'},
+    	{'id_equipe':'9', 'team_name':'team9'},
+    	{'id_equipe':'10', 'team_name':'team10'}				    	
+    	{'id_equipe':'11', 'team_name':'team11'},
+    	{'id_equipe':'12', 'team_name':'team12'},
+    	{'id_equipe':'13', 'team_name':'team13'},
+    	{'id_equipe':'14', 'team_name':'team14'},
+    	{'id_equipe':'15', 'team_name':'team15'},
+    	{'id_equipe':'16', 'team_name':'team16'}
+	]
+}

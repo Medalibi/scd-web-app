@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="extjs/resources/css/ext-all-access.css"/>
+<link rel="stylesheet" type="text/css" href="css/main_2.css"/>
+<script type="text/javascript" src="extjs/ext-all.js"></script>
+<script type="text/javascript" src="app_2/data/data-gen.js"></script>
+<script type="text/javascript" src="extjs/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="app_2.js"></script>
+<script type="text/javascript">
+	$("#slideshow > div:gt(0)").hide();
+	setInterval(function() { 
+	  $('#slideshow > div:first')
+	    .fadeOut(1000)
+	    .next()
+	    .fadeIn(1000)
+	    .end()
+	    .appendTo('#slideshow');
+	},  4000);
+</script>
+<title>View Portal</title>
+</head>
+<body>
+</body>
+</html>

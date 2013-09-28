@@ -1,0 +1,21 @@
+{
+	success:true,
+    capture:[
+            {'name':'team1','flag':'2'},
+            {'name':'team2','flag':'1'},
+            {'name':'team3','flag':'4'},
+            {'name':'team4','flag':'2'},
+            {'name':'team5','flag':'1'},
+            {'name':'team6','flag':'0'},
+            {'name':'team7','flag':'3'},
+            {'name':'team8','flag':'0'},
+            {'name':'team9','flag':'0'},
+            {'name':'team10','flag':'0'},
+            {'name':'team11','flag':'1'},
+            {'name':'team12','flag':'1'},
+            {'name':'team13','flag':'0'},
+            {'name':'team14','flag':'0'},
+            {'name':'team15','flag':'2'},
+            {'name':'team16','flag':'1'}
+	]
+}

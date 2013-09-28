@@ -1,0 +1,21 @@
+{
+	"success":true,
+	"rank":[
+		{"name":"team1", "score":220,"image":"logo_team_1.png","rang":13},
+		{"name":"team2", "score":230,"image":"logo_team_2.png","rang":12},
+		{"name":"team3", "score":620,"image":"logo_team_3.png","rang":1},
+		{'name':'team4', 'score':'730','image':'logo_team_4.png','rang':'1'},
+		{'name':'team5', 'score':'180','image':'logo_team_5.png','rang':'16'},
+		{'name':'team6', 'score':'430','image':'logo_team_2.png','rang':'6'},
+		{'name':'team7', 'score':'360','image':'logo_team_6.png','rang':'8'},
+		{'name':'team8', 'score':'220','image':'logo_team_1.png','rang':'14'},
+		{'name':'team9', 'score':'250','image':'logo_team_2.png','rang':'11'},
+		{'name':'team10', 'score':'310','image':'logo_team_3.png','rang':'9'},
+		{'name':'team11', 'score':'450','image':'logo_team_4.png','rang':'5'},
+		{'name':'team12', 'score':'270','image':'logo_team_5.png','rang':'10'},
+		{'name':'team13', 'score':'550','image':'logo_team_2.png','rang':'4'},
+		{'name':'team14', 'score':'430','image':'logo_team_1.png','rang':'7'},
+		{'name':'team15', 'score':'600','image':'logo_team_2.png','rang':'3'},
+		{'name':'team16', 'score':'200','image':'logo_team_3.png','rang':'15'}
+	]
+}

@@ -1,0 +1,22 @@
+body{
+	background-image:url("images/bg2.jpg");
+}
+.portHeader{
+	background:url("images/legacy/header-bg.png")repeat-x;
+	opacity: 0.7;
+	height: 50px;
+	margin-top: 20px;
+	padding: 10px;
+}
+.portForm{
+	background-color:#3b444f;
+	opacity: 0.5;
+	border-radius: 7px;
+	margin-top:150px;
+	padding:10px;
+	width:400px;
+}
+.portHeader b{
+	    font-size:18px;
+	    font-family:Stencilia;
+}

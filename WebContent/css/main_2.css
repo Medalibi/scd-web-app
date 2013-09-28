@@ -1,0 +1,50 @@
+.x-grid-header-ct {
+	display:none;
+}
+.x-tab-top-active{
+	border-color:#1a232b !important;
+}
+.x-tab-top-active, .x-tab-bar-strip-default {
+	background-color: #1f2933 !important;
+}
+
+.rank_main{
+	/*border: 1px solid #000;*/
+}
+.rank_grid {
+	height: 90px;
+	float: top;
+	padding: 20px 0 0 100px;
+}
+
+.rank_grid b {
+    font-family: tahoma, verdana;
+    /*font-family: ubuntu;*/
+    font-size:20px;
+    display: block;
+    color: #fff;
+}
+.score_value b {
+    padding-top:20px;
+    /*font-family: ubuntu;*/
+    font-family: tahoma, verdana;
+    font-size:20px;
+    color: #fff;
+}
+.rank_icon{
+	width:75px;
+	height:56px;
+	float:right;
+	margin:15px;
+}
+#slideshow { 
+	margin: 10px auto; 
+	position: relative; 
+	width: 150px; 
+	height: 60px; 
+	padding: 10px; 
+}
+#slideshow > div { 
+	position: absolute;
+	top:10px;
+}

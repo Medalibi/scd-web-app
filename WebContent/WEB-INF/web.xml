@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>SC_app</display-name>
+ <welcome-file-list>
+    <welcome-file>view_2.html</welcome-file>
+  </welcome-file-list>
+
+  
+  
+ 
+  
+    <servlet>
+    <display-name>EnvoiDonnees</display-name>
+    <servlet-name>EnvoiDonnees</servlet-name>
+    <servlet-class>com.fst.challenge.servlets.EnvoiDonnees</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EnvoiDonnees</servlet-name>
+    <url-pattern>/EnvoiDonnees</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+    <servlet>
+    <display-name>DemandeInternet</display-name>
+    <servlet-name>DemandeInternet</servlet-name>
+    <servlet-class>com.fst.challenge.servlets.DemandeInternet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DemandeInternet</servlet-name>
+    <url-pattern>/DemandeInternet</url-pattern>
+  </servlet-mapping>
+ 
+  
+  
+  <servlet>
+    <display-name>Connexion</display-name>
+    <servlet-name>Connexion</servlet-name>
+    <servlet-class>com.fst.challenge.servlets.Connexion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Connexion</servlet-name>
+    <url-pattern>/Connexion</url-pattern>
+  </servlet-mapping>
+</web-app>
