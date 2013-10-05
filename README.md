@@ -4,8 +4,8 @@
 
 		"scd-web-app"
 
-		Projet "Hackahton"
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Projet "LibertaX"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -16,15 +16,15 @@ https://github.com/vaytess/scd-web-app
 
 OVERVIEW:
 	
-	- Gestion de la challenge de sécurité via un interface web avancer ( acces Web, etat de system et de reseaux )
+	- Gestion du challenge de sécurité via un interface web avancée ( acces Web, etat de system et de reseaux )
 	- Inexistance d'applicaion capable de suivre le déroulement des challenges et données des statistiques (classement, challenge par niveau).
-	- Gestion de calssement en temps réelle (classement totale, classement par niveau de défficultés, challenge de type CTF).
+	- Gestion de calssement en temps réel (classement totale, classement par niveau de défficultés, challenge de type CTF).
 
 DESCRIPTION: 
 
 	Cette application doit permettre:
-		- Au challenger de valider le code du challenge qu'il a réussi
-		- D'avoir des informations très pratiques sur le score de chaque équipe et leur classement.
+		- Au challenger de valider le code du challenge qu'il a réussi.
+		- D'avoir des informations très pratiques et en temps réel sur le score de chaque équipe et leur classement.
 		- D'avoir un historique complet sur les validations de score
 		- D'avoir un accés sécurisé à l'application (HTTPS).
 		- D'avoir des codes sécurisés (HASH).
@@ -45,17 +45,17 @@ INSTALLATION:
 USAGE:
 	Frontend:
 		- L'équipe, après la réussite d'un challenge, obtient un code qu'elle le valide via un formulaire.
-		- Le code est après hashé et comparé avec le hash stocké dans la BD. S'il est valide le score et incrémenté.
+		- Le code est après hashé et comparé avec le hash stocké dans la BD. S'il est valide le score est incrémenté.
 		- La frontend affiche également, en temps réel, le classement des équipes par :
- Score totale
- Niveau de difficultés (3 niveaux)
- CTF (Capture The Flag).
+												Score totale
+												Niveau de difficultés (3 niveaux)
+												CTF (Capture The Flag).
 
 	Backend:
 		- Un administrateur accéde à cette interface pour :
- Ajouter/supprimer une équipe.
- Consulter l'historique.
- Décrémenter le score d'une équipe demandant un accés internet limité.
+							Ajouter/supprimer une équipe.
+							Consulter l'historique.
+							Décrémenter le score d'une équipe demandant un accés internet limité.
 
 
 NOTES: 
